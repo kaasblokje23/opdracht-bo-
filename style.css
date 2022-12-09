@@ -1,3 +1,53 @@
-body{
-    background-image: ;
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Montserrat&family=VT323&displ');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    background: rgb(21,21,35);
+    background: linear-gradient(98deg, rgba(21,21,35,1) 0%, rgba(51,89,219,1) 23%, rgba(223,21,80,1) 100%, rgba(138,19,131,1) 100%);
+}
+
+li, a, header{
+    font-family: "VT323", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    font-size:25px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10vw;
+}
+
+img{
+    width: 135px;
+    height: 85px;
+}
+
+.logo{
+    cursor: pointer;
+    
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #000000;
 }
