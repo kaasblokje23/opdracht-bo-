@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videogamemuseum</title>
+    <script src="https://kit.fontawesome.com/40dd9b944f.js"></script>
+    <script type ="text.js"></script>
 </head>
 <body>
     <header class="nav">
@@ -16,45 +18,151 @@
             <li> <a href="#Geschiedenis">Geschiedenis</a></li>
             <li> <a href="#Reviews">Reviews</a></li>
             <li> <a href="#Minigame">Minigame</a></li>
+            <li> <a href="#Contact">Contact</a></li>
+            <li> <a class="english" href="english.html">English</a></li>
+            
     </nav>
-    <a class="cta" href="#"><button>Contact</button></a>
     </header>
     <main>
-    <section class="bovengedeelte"> 
-    <p class="geschiedenis" id="Geschiedenis">Het Nationaal Videogame Museum is 'the place to be' 
-        voor iedereen die meer wil weten (én beleven) over de geschiedenis, maatschappelijke en culturele kant van videogames. 
-        Het museum laat haar bezoekers ook de games van morgen ervaren. 
-        Gamers van jong tot oud zijn welkom om te spelen, ontdekken, leren en ervaringen online te delen.
-    </p>
+    <article>
+        <section class="bovengedeelte"> 
+            <h2 class="geschiedenis" id="Geschiedenis">Het Nationaal Videogame Museum is 'the place to be' 
+            voor iedereen die meer wil weten (én beleven) over de geschiedenis, maatschappelijke en culturele kant van videogames. 
+            Het museum laat haar bezoekers ook de games van morgen ervaren. 
+            Gamers van jong tot oud zijn welkom om te spelen, ontdekken, leren en ervaringen online te delen.
+            <h2>
 
-    <p class ="education">
+        <p class ="education">
         ENTERTAINMENT | EDUCATION | EXPERIENCE
     
-    </p>
-    </section>
+        </p>
+        </section>
             
     
-        <section class="middengedeelte">
-        <img class="overzicht" id="Overzicht" src="images/pacman.jpg" alt="Een logo van het nationaal videogamemuseum">
+    <section class="middengedeelte">
+        <video poster="images/pacman.jpg" autoplay loop muted src="video/opening.mp4" controls  class="overzicht" id="Overzicht" ></video>
+        
+        </video>
     </section>
     </main>
     <section class="container">
-        <div class="slider-wrapper">
-            <div class="slider">
-                <img id="slide1" src="images/babypacman.jpg" alt="Foto van babypacman">
-                <img id="slide2" src="images/sega.jpg"alt="Foto van sega gamestation">
-                <img id="slide3" src="images/byon.jpg"alt="Foto van byon game arcade spel">
-            </div>
-            <div class="slider-nav">
-                <a href="#slide1"></a>
-                <a href="#slide2"></a>
-                <a href="#slide3"></a>
-            </div>
-        </div>
-    </section>
+	<div class="slider-wrapper">
+		<div class="slider">
+			<img id="slide-1" src="images/babypacman.jpg" alt="3D rendering of an imaginary orange planet in space" />
+			<img id="slide-2" src="images/pacman.jpg" alt="3D rendering of an imaginary green planet in space" />
+			<img id="slide-3" src="images/sega.jpg" alt="3D rendering of an imaginary blue planet in space" />
+            <img id="slide-4" src="images/byon.jpg" alt="3D rendering of an imaginary blue planet in space" />
+            <img id="slide-5" src="images/overzicht.jpg" alt="3D rendering of an imaginary blue planet in space" />
+		</div>
+		<div class="slider-nav">
+			<a href="#slide-1"></a>
+			<a href="#slide-2"></a>
+			<a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
 
+		</div>
+	</div>
+</section>
+</article>
     <footer>
-        <p>Gemaakt door Awes Zoretic en Boris Soeterik</p>
-    </footer>
+        <div class="container">
+            <div class="row">
+                  <div class="col" id="company">
+                      <img src="images/footerlogo.png" alt="" class="logo">
+                      <p>
+                        "Het nationaal videogamemuseum, the place to be."
+                      </p>
+                      <div class="social">
+                        <a href="https://www.facebook.com/NationaalGameMuseum/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/NVGMuseum/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@nationaalvideogamemuseum1549/videos"><i class="fab fa-youtube"></i></a>
+                        <a href="https://twitter.com/NaVGMuseum"><i class="fab fa-twitter"></i></a>
+                        <a href="https://nl.linkedin.com/company/nationaal-video-game-museum"><i class="fab fa-linkedin"></i></a>
+                      </div>
+                  </div>
+
+
+                  <div class="col" id="services">
+                     <h3>Services</h3>
+                     <div class="links">
+                        <a href="#">Kinderfeesten</a>
+                        <a href="#">Bedrijfsuitjes</a>
+                        <a href="#">Events</a>
+                     </div>
+                  </div>
+
+                  <div class="col" id="useful-links">
+                     <h3>Links</h3>
+                     <div class="links">
+                        <a href="#">Tickets</a>
+                        <a href="https://www.nationaalvideogamemuseum.nl/tarieven">Tarieven</a>
+                        <a href="#">Tijdslots</a>
+                        <a href="https://www.nationaalvideogamemuseum.nl/educatie">Educatie</a>
+                     </div>
+                  </div>
+                  <div class="col" id="openingstijden">
+                     <h3>Openingstijden</h3>
+                     <div class="openingstijden">
+                        <li>
+                            <p>Openingstijden</p>
+                            <ul>
+                                
+                            </ul>
+                        </li>
+                        Tijdslots 
+
+                        We werken met vaste tijdslots in het museum:
+                        Ma: Gesloten
+
+                        Di: Gesloten
+                     
+                        Wo: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                        Do: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                        Vr: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 | 18.00-21.00 uur
+                        Za: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                        Zo: 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                        In de schoolvakanties zijn wij ook op maandag en dinsdag geopend.
+                     </div>
+                  </div>
+
+                  <div class="col" id="Contact">
+                      <h3>Contact</h3>
+                      <div class="contact-details">
+                         <i class="fa fa-location"></i>
+                         <p>Algemene vragen:
+                            info@nationaalvideogamemuseum.nl
+                            
+                            
+                            Pers:
+                            pers@nationaalvideogamemuseum.nl
+
+                            Zakelijk:
+                            zakelijk@nationaalvideogamemuseum.nl
+                        </p>
+                      </div>
+                      <div class="contact-details">
+                         <i class="fa fa-phone"></i>
+                         <p>Telefoonnummer
+
+                            Algemeen: 079 – 360 27 18
+                            
+                            Administratie en marketing: 079 – 785 39 31 
+                            </p>
+                      </div>
+                  </div>
+            </div>
+
+            <div class="row">
+                  <div class="form">
+                    <form action="">
+                        <input type="text" placeholder="Email here...">
+                        <button><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                  </div>
+            </div>
+
+        </div>
+     </footer>
     </body>
 </html>
