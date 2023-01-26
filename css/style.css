@@ -64,7 +64,7 @@ header {
 }
 
 .geschiedenis {
-  width: 100%;
+  width: 80vw;
   height: 300px;
   font-family: "VT323", sans-serif;
   font-weight: 500;
@@ -84,6 +84,7 @@ header {
   text-decoration: none;
   font-size: 120%;
   text-align: center;
+  width: 80vw;
 }
 
 .overzicht {
@@ -419,8 +420,9 @@ footer {
   margin-bottom: 10px;
 }
 
-.col .openingstijden > p {
-  gap: 10px;
+.openingstijden .p {
+  margin-bottom: 20px;
+  gap: 20px;
 }
 
 .row .form {
